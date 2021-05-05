@@ -17,7 +17,7 @@
 # It is very complicated to fix the timining, so please see ALL notes below for detailed descriptions as to what is being done
 # There are some redundancies in the script that could be fixed to save time, e.g., interpolation images are done for all filenames though they really only need to be done once
 # NOTE - This script currently only works for up to 6 runs
-# NOTE - For subjects with 5 or 6, this script only works correctly for the v2.1 or v2.2 of the movie script. If something else is needed, it needts to be hand coded in (as there are too many possible combinations of true & false to write them all in)
+# NOTE - For subjects with 5 or 6, this script only works correctly for the v2.1 or v2.2 of the movie script. If something else is needed, it needs to be hand coded in (as there are too many possible combinations of true & false to write them all in)
 # NOTE - Left off by duplicating slug_ and not slug interpolation files because either might be needed now
 # NOTE - to check time:
 # ll files/timeseries_files/*blur*_wm_ventricle*interpolation_amount.nii.gz
